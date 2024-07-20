@@ -1,0 +1,51 @@
+body {
+    /* background: linear-gradient(45deg, purple,skyblue,rgb(173, 211, 131));*/
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/gray/DMVJDTBHA5AIRGNI66AWBEJAYA.jpg");
+    background-size: cover;
+    height: 700px;
+    /* width: 500px; */
+    font-family:  Arial;
+}
+
+.mini-container {
+    /* background: linear-gradient(45deg, purple,skyblue,rgb(173, 211, 131));
+    background-image: url("https://venturebeat.com/wp-content/uploads/2020/09/GettyImages-520682906-e1619014289419.jpg?w=400");
+    background-size: cover; */
+    background-color: rgb(253, 249, 249);
+    filter: blur();
+    height: 400px;
+    width: 400px;
+    margin-inline: auto;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+
+#weather {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+#city {
+    width: 200px;
+    margin-left: 70px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#btn {
+    padding: 9px;
+    margin-left: -4px;
+    background-color:rgb(128, 213, 219);
+    border: none;
+}
+
+.weatherDisplay {
+    /* background-color: rgb(249, 244, 222); */
+    height: 180px;
+    width: 200px;
+    margin-left: 90px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
